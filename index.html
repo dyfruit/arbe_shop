@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400">
+  <title>arbe_shop</title>
+  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="img/favicon_png.png" type="image/x-icon">
+  <!--aos-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <div class="swiper arbe_main">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#"><img src="img/top_baner.png" alt="top_baner"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/top_baner.png" alt="top_baner"></a></div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".arbe_main", {
+      direction: "vertical",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 1800,
+        disableOnInteraction: false,
+      },
+      loop: true,
+    });
+  </script>
+
+
+  <div id="header">
+    <!--header-->
+    <h1 class="logo"><a href="https://dyfruit.github.io/arbe/"><img src="img/page_logo.png" alt="logo"></a></h1>
+    <div class="header_inner">
+      <!--header_inner-->
+      <ul class="list1">
+        <!--login_menu-->
+        <li><a href="#"><img src="img/login_bt.png" alt="login_bt"></a></li>
+        <li><a href="#"><img src="img/join_bt.png" alt="join_bt"></a></li>
+        <li><a href="#"><img src="img/cart_bt.png" alt="cart_bt"></a></li>
+        <input type="search" class="search1" placeholder="Search">
+      </ul>
+      <!--login_menu-->
+      <ul id="gnb1" class="clearfix">
+        <!--gnb_clearfix-->
+        <li><a href="https://dyfruit.github.io/arbe_about/">ABOUT</a></li>
+        <li><a href="https://dyfruit.github.io/arbe_shop/">SHOP</a></li>
+      </ul>
+      <ul id="gnb2" class="clearfix">
+        <li><a href="https://dyfruit.github.io/arbe_collab/">COLLAB</a></li>
+        <li><a href="https://dyfruit.github.io/arbe_event/">EVENT</a></li>
+      </ul>
+    </div>
+    <!--header_inner-->
+  </div>
+  <!--header-->
+
+  <div id="main_banner" class="clear_fix">
+    <!--main_img-->
+    <img class="main_img" src="img/shop_main_title_img.jpg" alt="main_img">
+    <img class="pr_bn1" src="img/eau_de_perfume_img.jpg" alt="pr_bn1">
+  </div>
+  <div id="perfume_text" class="clearfix">
+    <p class="font_40">eau de perfume</p><br>
+    <p class="font_20">Arbe's sensual scent</p>
+  </div>
+
+  <div id="pr_perfume" class="clearfix">
+    <!--product_item-->
+    <div class="pr_box1">
+      <!--box1-->
+      <div class="pr1"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/pr_1.jpg" alt="pr1"></a>
+        <p>eau de perfume “40” 50ml</p>
+        <p>142,000 ₩</p>
+      </div>
+      <div class="pr2"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/pr_2.jpg" alt="pr2"></a>
+        <p>eau de perfume “42” 50ml</p>
+        <p>142,000 ₩</p>
+      </div>
+      <div class="pr3"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/pr_3.jpg" alt="pr3"></a>
+        <p>eau de perfume “43” 50ml</p>
+        <p>142,000 ₩</p>
+      </div>
+      <div class="pr4"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/pr_4.jpg" alt="pr4"></a>
+        <p>eau de perfume “44” 50ml</p>
+        <p>144,000 ₩</p>
+      </div>
+    </div>
+    <!--inner-->
+  </div>
+  <!--product-->
+
+  <div id="collab" class="crearfix">
+    <!--collab-->
+    <div class="pr_box2">
+      <!--pr_box2-->
+      <div class="collab_1"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/collab_pr1.jpg" alt="cl_1"></a>
+        <p class="font_40">40</p><br>
+        <p>Feel the warmth in the duvet.</p>
+      </div>
+      <div class="collab_2"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/collab_pr2.jpg" alt="cl_2"></a>
+        <p class="font_40">42</p><br>
+        <p>Savor the sweet fruity and<br>
+          natural scents.</p>
+      </div>
+      <div class="collab_3"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/collab_pr3.jpg" alt="cl_3"></a>
+        <p class="font_40">44</p><br>
+        <p>Arbe Original.<br>
+          Smell the heavenly scent like<br>
+          never before.</p>
+      </div>
+      <div class="collab_4"><a href="https://dyfruit.github.io/arbe_shop/"><img src="img/collab_pr4.jpg" alt="cl_4"></a>
+        <p class="font_40">46</p><br>
+        <p>Enjoy tropical fruits and<br>
+          exotic scents.</p>
+      </div>
+    </div>
+    <!--inner-->
+  </div>
+  <!--collab-->
+  </div>
+
+  <div id="sb_banner" class="crearfix">
+    <!--sub_banner-->
+    <img class="sub_img" src="img/shop_bath_body_title.jpg" alt="sb">
+  </div>
+  <div class="sub_title">
+    <!--sub_title-->
+    <p class="font_40">Bath & Body & Candle</p><br>
+    <p class="font_20">Find incense everywhere.</p>
+  </div>
+
+  <div id="pr_body" class="crearfix">
+    <!--prduct_anything-->
+    <div class="pr_box3">
+      <!--inner-->
+      <div class="hover1"><a href="#"><img src="img/pr_body.png" alt="body"></a></div>
+      <div class="hover2"><a href="#"><img src="img/pr_cream.png" alt="cream"></a></div>
+      <div class="hover3"><a href="#"><img src="img/pr_diffuser.png" alt="diffuser"></a></div>
+      <div class="hover4"><a href="#"><img src="img/pr_candle.png" alt="candle"></a></div>
+    </div>
+    <!--box3-->
+  </div>
+  <!--pr_box-->
+
+  <div id="gift" class="crearfix">
+    <!--gift-->
+    <p class="font_40">Gift Set</p><br>
+    <p class="font_20">gift a scent</p>
+  </div>
+
+  <div id="gift_box" class="clearfix">
+    <!--gift_box-->
+    <div class="gift_inner">
+      <div class="gift_box1"><a href="#"><img src="img/gift_set.jpg" alt="gift1"></a><br><br><br>
+        <p>Get a discount with the product you want and share a gift<br>
+          package<br>
+          Receive with eco-friendly paper bag.</p>
+      </div>
+      <div class="gift_box2"><a href="#"><img src="img/gift_sample.jpg" alt="gift2"></a><br><br><br>
+        <a href="#"><img src="img/gift_sample_bt.png" alt="sample_bt"></a>
+      </div>
+    </div>
+    <!--gift_inner-->
+  </div>
+
+  <div id="pooter" class="clearfix">
+    <!--pooter-->
+    <img class="pooter_forest" src="img/pooter_forest.png" alt="pooter_forest">
+    <div class="pooter_inner">
+      <div class="pooter_bg">
+        <div class="pooter_text">
+          <!--pooter_text-->
+          <br>
+          © arbe_seoul&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <a href="#">Terms of service</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+          l
+          &nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">privacy policy</a><br><br><br><br>
+          10th floor, Dawon Jungang Tower, 26, Jungang-daero, Jung-gu, Busan<br>
+          Business registration number: 1234-81-14486<br>
+          Mail-order business report number: Busan-15737<br>
+          Customer Care Support Team: (051) 6974-3228 dyfruit@arbe.com<br>
+          Hosting service provider: LG Uplus Co., Ltd.<br>
+        </div>
+      </div>
+    </div>
+    <!--pooter-->
+</body>
+
+</html>
